@@ -9,3 +9,12 @@ export default {
 
 }
 </script>
+<style lang="scss">
+    .chat {
+        &-messages {
+            height: 400px;
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+    }
+</style>

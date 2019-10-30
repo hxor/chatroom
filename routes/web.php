@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/chat', 'ChatController@index')->name('chat');
+Route::get('/chat/messages', 'ChatMessageController@index')->name('chat.message.index');
